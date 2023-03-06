@@ -1,14 +1,15 @@
-
+import { BrowserRouter } from "react-router-dom"
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import MYnavbar from './components/navbar';
+import Navbarme from './components/Navbarme';
 
 function App() {
   return (
+    <BrowserRouter>    
     <div className="App">
-      <MYnavbar />
-      
+      <Navbarme />
     </div>
+    </BrowserRouter>
 
   );
 }
