@@ -4,7 +4,7 @@ const Main = () => {
   return (
     <div>
       <div className='main-body'>
-        <p>KCC Institute of technology and management presents</p>
+        <p>KCC Institute of Technology & Management presents</p>
         <div className='title-name'>
          
 <h1>
@@ -12,7 +12,7 @@ const Main = () => {
 </h1>
           <h1>UEL</h1>
         </div>
-        <h3>2023</h3>
+        <h2>2023</h2>
       </div>
     </div>
   )
