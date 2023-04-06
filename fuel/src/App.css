@@ -1,73 +1,42 @@
-*{
-  box-sizing: border-box;
-  margin: 0%;
-  padding: 0%;
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
 }
 
 
-.App {
-  text-align: center;
-  background-color: black;
-  
+body{
+    background: black;
+} 
+
+h1{
+    color: white;
+}
+a {
+    color: unset;
+    text-decoration: none;
 }
 
-.navbar-brand {
-  color: #fff !important;
-  font-weight: 900;
-  font-size: 2cm !important;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
 
-.navbar-brand,
-.navbar-nav .nav-link {
-  color: #fff;
-}
+.gradient__bg{
+        /* ff 3.6+ */
+        background:-moz-linear-gradient(203deg, rgba(0, 0, 0, 1) 0%, rgba(102, 10, 10, 1) 73%, rgba(215, 114, 8, 1) 100%); 
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-Nav{
-  /* background-color: #282c34; */
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  /* flex-direction: row-reverse; */
-  font-size: calc(10px + 2vmin);
-  color: white;
+        /* safari 5.1+,chrome 10+ */
+        background:-webkit-linear-gradient(203deg, rgba(0, 0, 0, 1) 0%, rgba(102, 10, 10, 1) 73%, rgba(215, 114, 8, 1) 100%);
+    
+        /* opera 11.10+ */
+        background:-o-linear-gradient(203deg, rgba(0, 0, 0, 1) 0%, rgba(102, 10, 10, 1) 73%, rgba(215, 114, 8, 1) 100%);
+    
+        /* ie 6-9 */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#D77208', endColorstr='#000000', GradientType=1 );
+    
+        /* ie 10+ */
+        background:-ms-linear-gradient(203deg, rgba(0, 0, 0, 1) 0%, rgba(102, 10, 10, 1) 73%, rgba(215, 114, 8, 1) 100%);
+    
+        /* global 94%+ browsers support */
+        background:linear-gradient(203deg, rgba(0, 0, 0, 1) 0%, rgba(102, 10, 10, 1) 73%, rgba(215, 114, 8, 1) 100%);
 }
 
 

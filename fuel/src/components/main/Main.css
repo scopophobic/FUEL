@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.main-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    height: 100vh;
+  }
+
+
+  .main-body p{
+    color: white;
+    margin-top: 5rem;
+    margin-bottom: 0;
+  }
+  
+  .title-name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .main-body h1 {
+    font-size: 18rem;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+  }
+
+  .title-name h1{
+    margin: 0;
+    padding: 0;
+    letter-spacing: 0cap;
+  }
+
+.main-body{
+    background-image: url('../../assets/FUEL.png');
+    background-position: center;
+    background-size: 1500px;
+    /* width: 1400px; */
+    /* height: 900px; */
+    /* border: 2px solid; */
+    /* color: pink; */
+}  
+
+
+.red-letter{
+    color: #F1473A;
+
+}
+
+
+.main-body h3{
+    color: white;
+}
