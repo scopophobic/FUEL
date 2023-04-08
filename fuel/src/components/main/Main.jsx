@@ -1,6 +1,7 @@
 import React from "react";
 import "./Main.css";
-const Main = () => {
+
+const Main0 = () => {
   return (
     <div>
       <div className="main-body">
@@ -14,7 +15,7 @@ const Main = () => {
         <h2>2023</h2>
       </div>
     </div>
-  );
+  )
 }
 
-export default Main
+export default Main0

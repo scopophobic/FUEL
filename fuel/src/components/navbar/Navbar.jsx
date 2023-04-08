@@ -6,7 +6,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Events from '../events/Events';
 import About from '../about/About';
-import Home from '../Home'
+// import Home from '../Home'
 const Navbar1 = () => {
   return (
     <div>
@@ -30,7 +30,7 @@ const Navbar1 = () => {
 
      
       <Routes>
-        <Route exact path="/" element={<Home/>} />
+        {/* <Route exact path="/" element={<Home/>} /> */}
         <Route path="/Events" element={<Events/>} />
         <Route path="/About" element={<About/>} />
       </Routes>
