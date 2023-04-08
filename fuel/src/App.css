@@ -7,7 +7,7 @@
 
 
 body{
-    background: black;
+    background: black !important;
 } 
 
 h1{
@@ -21,22 +21,19 @@ a {
 
 .gradient__bg{
         /* ff 3.6+ */
-        background:-moz-linear-gradient(203deg, rgba(0, 0, 0, 1) 0%, rgba(102, 10, 10, 1) 73%, rgba(215, 114, 8, 1) 100%); 
+    background:-moz-radial-gradient(circle at 50% 50%, rgba(57, 0, 0, 1) 0%, rgba(70, 0, 0, 1) 24%, rgba(46, 0, 0, 1) 54%, rgba(37, 1, 1, 1) 79%, rgba(26, 1, 1, 1) 100%);
 
-        /* safari 5.1+,chrome 10+ */
-        background:-webkit-linear-gradient(203deg, rgba(0, 0, 0, 1) 0%, rgba(102, 10, 10, 1) 73%, rgba(215, 114, 8, 1) 100%);
-    
-        /* opera 11.10+ */
-        background:-o-linear-gradient(203deg, rgba(0, 0, 0, 1) 0%, rgba(102, 10, 10, 1) 73%, rgba(215, 114, 8, 1) 100%);
-    
-        /* ie 6-9 */
-        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#D77208', endColorstr='#000000', GradientType=1 );
-    
-        /* ie 10+ */
-        background:-ms-linear-gradient(203deg, rgba(0, 0, 0, 1) 0%, rgba(102, 10, 10, 1) 73%, rgba(215, 114, 8, 1) 100%);
-    
-        /* global 94%+ browsers support */
-        background:linear-gradient(203deg, rgba(0, 0, 0, 1) 0%, rgba(102, 10, 10, 1) 73%, rgba(215, 114, 8, 1) 100%);
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-radial-gradient(circle at 50% 50%, rgba(57, 0, 0, 1) 0%, rgba(70, 0, 0, 1) 24%, rgba(46, 0, 0, 1) 54%, rgba(37, 1, 1, 1) 79%, rgba(26, 1, 1, 1) 100%);
+
+    /* opera 11.10+ */
+    background:-o-radial-gradient(circle at 50% 50%, rgba(57, 0, 0, 1) 0%, rgba(70, 0, 0, 1) 24%, rgba(46, 0, 0, 1) 54%, rgba(37, 1, 1, 1) 79%, rgba(26, 1, 1, 1) 100%);
+
+    /* ie 10+ */
+    background:-ms-radial-gradient(circle at 50% 50%, rgba(57, 0, 0, 1) 0%, rgba(70, 0, 0, 1) 24%, rgba(46, 0, 0, 1) 54%, rgba(37, 1, 1, 1) 79%, rgba(26, 1, 1, 1) 100%);
+
+    /* global 92%+ browsers support */
+    background:radial-gradient(circle at 50% 50%, rgba(57, 0, 0, 1) 0%, rgba(70, 0, 0, 1) 24%, rgba(46, 0, 0, 1) 54%, rgba(37, 1, 1, 1) 79%, rgba(26, 1, 1, 1) 100%);
 }
 
 

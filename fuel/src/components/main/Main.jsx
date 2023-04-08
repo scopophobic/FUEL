@@ -15,6 +15,6 @@ const Main = () => {
       </div>
     </div>
   );
-};
+}
 
-export default Main;
+export default Main

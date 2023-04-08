@@ -1,27 +1,42 @@
-import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import React from 'react';
+import { BrowserRouter, Routes, Route , Link} from 'react-router-dom'
 import './Navbar.css'
-const Navbar = () => {
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import Events from '../events/Events';
+import About from '../about/About';
+import Home from '../Home'
+const Navbar1 = () => {
   return (
     <div>
+       <BrowserRouter>
+        <Navbar className='navbig'>
+        <Container className='Nav-container'>
+          <Nav className="nav-main">
+          <Nav.Link ><Link to ="/">Home</Link></Nav.Link>
+            <Nav.Link ><Link to="/Events">Events</Link></Nav.Link>
+            <Nav.Link ><Link to="/About">About</Link></Nav.Link>
+          </Nav>
+        </Container>
+      </Navbar>
+      {/* <Switch>
+        <Route exact path="/" component={Home} />
+        <Route path="/event" component={Events} />
+        <Route path="/about" component={About} />
+      </Switch>
+       */}
+      
 
-      <nav className="navbar">
-        <div className="navbar-center">
-          <ul className="navbar-links">
-            <li>
-              <a href="/">Home</a>
-            </li>
-            <li>
-              <a href="/events">Events</a>
-            </li>
-            <li>
-              <a href="/contact">Contact Us</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
+     
+      <Routes>
+        <Route exact path="/" element={<Home/>} />
+        <Route path="/Events" element={<Events/>} />
+        <Route path="/About" element={<About/>} />
+      </Routes>
+    </BrowserRouter>
     </div>
-  )
+  );
 }
 
-export default Navbar
+export default Navbar1
